@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+::selection {
+  color: rgb(232, 145, 47);
+}
+.carticon {
+  font-size: 50px;
+}

@@ -22,7 +22,7 @@ const About = () => {
     <>
       <div className="bg-green-700 text-center text-white w-full h-full text-lg  ">
         {/* <Header /> */}
-        <h1> About page </h1>
+        <h1 className="about"> About page </h1>
         <button
           onClick={() => {
             getImages();
